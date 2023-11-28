@@ -10,11 +10,6 @@
     <!-- Toastify CSS -->
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
     <link rel="stylesheet" href="./main.css">
-    <!-- Firebase -->
-    <!-- Firebase v8 -->
-<script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-app.js"></script>
-<script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-auth.js"></script>
-<script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-firestore.js"></script>
 
 </head>
 
@@ -37,6 +32,14 @@
       </div>
     </div>
   </nav>
+  <a class="acceder-main" href="#"> Comenzar</a>
+  <div class="imagenlimonordenador">
+    <img src="./Group 1.png" alt="imagenlimon">
+  </div>
+  <div class="limonmovil">
+    <img src="./Group 1.png" alt="imagenlimon">
+  </div>
+  
 
   <div class="container p-4">
     <div class="row">
@@ -96,26 +99,14 @@
       </div>
     </div>
   </div>
-
-  <!-- SCRIPTS -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
-  <script>
-    // Configuración de Firebase
-    const firebaseConfig = {
-        apiKey: "AIzaSyBAVX2FITvrVAm3jnLsf8Oht5ZgD2i_nzc",
-        authDomain: "marcosbbdd-e707e.firebaseapp.com",
-        projectId: "marcosbbdd-e707e",
-        storageBucket: "marcosbbdd-e707e.appspot.com",
-        messagingSenderId: "141099312269",
-        appId: "1:141099312269:web:ef70e01085c1b96e5caec4",
-        measurementId: "G-4GV5DSX07S"
-      };
-  
-    // Inicializar Firebase
-    firebase.initializeApp(firebaseConfig);
-  </script>
-  
-  <script type="module" src="./main.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+<script src="app.js"></script>
 </body>
+  <!-- SCRIPTS -->
+    <script src="./app/configuracion.js"></script>
+    <script src="./app/guardar.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+  <script type="module" src="./main.js"></script>
+
 
 </html>
